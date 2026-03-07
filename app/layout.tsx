@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Playfair_Display, Lato } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Toaster } from "sonner"
-import WhatsAppFloating from "@/components/WhatsAppFloating"  // ← Add this import
+import WhatsAppFloating from "@/components/WhatsAppFloating"  
 import "./globals.css"
 
 const _playfair = Playfair_Display({

@@ -107,3 +107,64 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* =========================================================
+   PREMIUM BRAND IMAGE HARMONY — 24HR BULK WATER DELIVERY
+   Makes illustrations blend with feminine water palette
+   ========================================================= */
+
+.brand-image-wrap {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom right,
+    rgba(165, 216, 255, 0.15),
+    rgba(249, 197, 213, 0.12)
+  );
+}
+
+/* Stronger visible brand tint overlay */
+.brand-image-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  /* REAL VISIBLE OVERLAY */
+  background: linear-gradient(
+    135deg,
+    rgba(165, 216, 255, 0.28),
+    rgba(249, 197, 213, 0.22)
+  );
+
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Image color correction */
+.brand-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  z-index: 1;
+
+  filter:
+    saturate(0.78)
+    contrast(0.95)
+    brightness(1.05)
+    hue-rotate(-8deg);
+}
+
+/* Optional hover polish (desktop only) */
+@media (hover: hover) {
+  .brand-image:hover {
+    filter:
+      saturate(0.92)
+      contrast(1)
+      brightness(1.05)
+      hue-rotate(-4deg)
+      drop-shadow(0 10px 30px rgba(30, 58, 138, 0.16));
+    transition: filter 0.35s ease;
+  }
+}

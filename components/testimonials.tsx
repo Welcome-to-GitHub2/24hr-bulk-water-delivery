@@ -13,35 +13,35 @@ import {
 
 const testimonials = [
   {
-    name: "Thabo Molefe",
+    name: "Thabang Melefa",
     role: "Construction Manager, Sandton",
     stars: 5,
     quote:
       "24HR Bulk Water has been our go-to water supplier for three major builds in Johannesburg. Always on time, always professional. I wouldn't trust anyone else.",
   },
   {
-    name: "Lerato Nkosi",
+    name: "Leratong Mokosi",
     role: "Event Planner, Centurion",
     stars: 5,
     quote:
       "We needed 20,000 litres for a weekend festival and they delivered flawlessly. The team was friendly and the water quality was excellent.",
   },
   {
-    name: "Karen van der Merwe",
+    name: "Kariene van der Mei",
     role: "Homeowner, Midrand",
     stars: 5,
     quote:
       "When our area had a water outage for three days, 24HR Bulk Water saved us. They responded within hours and the price was very fair.",
   },
   {
-    name: "Sipho Dlamini",
+    name: "Siphokazi Mabena",
     role: "Site Foreman, Pretoria East",
     stars: 4,
     quote:
       "Reliable, consistent, and the driver is always courteous. Our site runs smoothly because of their dependable deliveries.",
   },
   {
-    name: "Anele Mbatha",
+    name: "Banele Mbethe",
     role: "Restaurant Owner, Rosebank",
     stars: 5,
     quote:

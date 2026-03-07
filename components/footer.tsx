@@ -9,9 +9,9 @@ const quickLinks = [
 ]
 
 export function Footer() {
-  const phoneNumber = "+27000000000"  // ← CHANGE TO REAL (international format)
-  const email = "info@24hrbulkwater.co.za"
-  const facebookUrl = "https://facebook.com/24hrbulkwater"  // ← CHANGE TO REAL PAGE
+  const phoneNumber = "+27682805455"  
+  const email = "cleamwatersupply247@gmail.com"
+  const facebookUrl = "https://www.facebook.com/share/1B1fmaaApv/"  
 
   return (
     <footer className="bg-primary text-primary-foreground">

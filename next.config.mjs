@@ -6,6 +6,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+images: {
+  qualities: [75, 85],
+}
 }
 
+
 export default nextConfig
+

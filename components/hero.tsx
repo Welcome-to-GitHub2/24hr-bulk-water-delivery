@@ -72,7 +72,7 @@ export function Hero() {
             variant="outline"
             className="border-white/40 bg-white/10 text-white hover:bg-white/20 backdrop-blur text-base font-semibold px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105"
           >
-            <a href="tel:+27000000000">
+            <a href="tel:+27682805455">
               <Phone className="mr-2 h-5 w-5" />
               Call Now
             </a>

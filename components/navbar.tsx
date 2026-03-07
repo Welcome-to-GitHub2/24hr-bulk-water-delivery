@@ -54,7 +54,7 @@ export function Navbar() {
             size="sm"
             className="border-secondary text-secondary-foreground hover:bg-secondary/20"
           >
-            <a href="tel:+27000000000">
+            <a href="tel:+27682805455">
               <Phone className="mr-1.5 h-4 w-4" />
               Call Now
             </a>
@@ -106,7 +106,7 @@ export function Navbar() {
                   variant="outline"
                   className="w-full border-secondary text-secondary-foreground"
                 >
-                  <a href="tel:+27000000000">
+                  <a href="tel:+27682805455">
                     <Phone className="mr-1.5 h-4 w-4" />
                     Call Now
                   </a>

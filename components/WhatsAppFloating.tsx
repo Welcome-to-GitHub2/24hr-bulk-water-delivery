@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function WhatsAppFloating() {
-  const phone = '27712345678'; // ← CHANGE TO YOUR REAL NUMBER (no + sign, just 27...)
+  const phone = '27682805455'; 
   const message = encodeURIComponent("Hi! I'd like a bulk water quote for Gauteng please 💧");
 
   return (
