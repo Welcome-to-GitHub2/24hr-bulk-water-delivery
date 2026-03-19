@@ -10,7 +10,7 @@ const quickLinks = [
 
 export function Footer() {
   const phoneNumber = "+27682805455"  
-  const email = "cleanwatersupply247@gmail.com"
+  const email = "24hrbulkwaterdelivery@gmail.com"
   const facebookUrl = "https://www.facebook.com/share/1B1fmaaApv/"  
 
   return (

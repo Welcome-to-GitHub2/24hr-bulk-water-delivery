@@ -17,7 +17,7 @@ export async function POST(req: Request) {
 
     await resend.emails.send({
       from: "24HR Bulk Water <quotes@24hrbulkwater.co.za>",
-      to: ["cleanwatersupply247@gmail.com"],
+      to: ["24hrbulkwaterdelivery@gmail.com"],
       subject: "🚨 New Water Delivery Quote Request",
       html: `
         <h2>New Quote Request</h2>

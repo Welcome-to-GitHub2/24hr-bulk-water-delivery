@@ -165,10 +165,10 @@ Message: ${data.message || "N/A"}
               <div>
                 <p className="text-sm font-semibold">Email</p>
                 <a
-                  href="mailto:cleanwatersupply247@gmail.com"
+                  href="mailto:24hrbulkwaterdelivery@gmail.com"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  info@24hrbulkwater.co.za
+                  24hrbulkwaterdelivery@gmail.com
                 </a>
               </div>
             </div>
