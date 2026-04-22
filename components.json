@@ -1,21 +1,221 @@
-{
-  "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "new-york",
-  "rsc": true,
-  "tsx": true,
-  "tailwind": {
-    "config": "",
-    "css": "app/globals.css",
-    "baseColor": "neutral",
-    "cssVariables": true,
-    "prefix": ""
-  },
-  "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
-    "lib": "@/lib",
-    "hooks": "@/hooks"
-  },
-  "iconLibrary": "lucide"
+import type { Metadata } from "next"
+import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "Bulk Water Delivery Pretoria | 24/7 Emergency Water Supply",
+  description:
+    "Reliable bulk water delivery in Pretoria for homes, estates, construction sites, schools and businesses. Fast emergency water supply, JoJo tank filling and pool filling across Pretoria.",
+  keywords: [
+    "bulk water delivery Pretoria",
+    "water delivery Pretoria",
+    "Pretoria water tanker",
+    "JoJo tank filling Pretoria",
+    "emergency water supply Pretoria",
+    "pool filling Pretoria",
+  ],
+}
+
+export default function PretoriaPage() {
+  return (
+    <main className="bg-background text-foreground">
+      <section className="mx-auto max-w-6xl px-4 py-16 lg:px-8">
+        <div className="max-w-4xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary-foreground">
+            Pretoria Water Delivery
+          </p>
+
+          <h1 className="mt-3 text-4xl font-bold text-primary md:text-5xl">
+            Bulk Water Delivery in Pretoria
+          </h1>
+
+          <p className="mt-6 text-lg leading-8 text-muted-foreground">
+            24HR Bulk Water Delivery provides reliable bulk water delivery in Pretoria
+            for homes, estates, construction sites, schools, hospitals and commercial
+            properties. Whether you need emergency supply during an outage, JoJo tank
+            filling, swimming pool filling or scheduled large-volume delivery, our team
+            is ready to respond quickly across Pretoria and surrounding areas.
+          </p>
+
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+            <a
+              href="tel:+27682805455"
+              className="rounded-xl bg-primary px-6 py-3 text-center font-semibold text-white"
+            >
+              Call Now
+            </a>
+
+            <a
+              href="https://wa.me/27682805455"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-xl bg-accent px-6 py-3 text-center font-semibold text-accent-foreground"
+            >
+              WhatsApp Us
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 pb-4 lg:px-8">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {[
+            "Emergency water delivery",
+            "JoJo tank filling",
+            "Swimming pool filling",
+            "Construction site water",
+            "Event water supply",
+            "Potable water delivery",
+          ].map((item) => (
+            <div key={item} className="rounded-2xl border bg-card p-6 shadow-sm">
+              <h2 className="text-xl font-semibold text-primary">{item}</h2>
+              <p className="mt-3 text-sm leading-7 text-muted-foreground">
+                Fast, professional service across Pretoria with dependable dispatch
+                and responsive support.
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-12 lg:px-8">
+        <div className="grid gap-10 lg:grid-cols-2">
+          <div>
+            <h2 className="text-2xl font-bold text-primary">
+              Areas We Cover in Pretoria
+            </h2>
+            <p className="mt-4 leading-8 text-muted-foreground">
+              We serve Pretoria East, Pretoria North, Pretoria West, Hatfield, Menlyn,
+              Montana, Wonderboom, Silver Lakes, Centurion and surrounding areas.
+              If you need urgent water delivery for residential, commercial or site use,
+              our team can assist across the greater Pretoria region.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-primary">Who We Supply</h2>
+            <ul className="mt-4 space-y-3 text-muted-foreground">
+              <li>Homes and residential estates</li>
+              <li>Construction and development sites</li>
+              <li>Schools, clinics and hospitals</li>
+              <li>Hotels, guesthouses and event venues</li>
+              <li>Factories, warehouses and office parks</li>
+              <li>Property managers and facility teams</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-muted">
+        <div className="mx-auto max-w-6xl px-4 py-12 lg:px-8">
+          <h2 className="text-2xl font-bold text-primary">
+            Why Choose 24HR Bulk Water Delivery in Pretoria?
+          </h2>
+
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {[
+              "Fast response for urgent requests",
+              "Potable water supply available",
+              "Reliable service for scheduled and emergency delivery",
+              "Support for residential and commercial clients",
+              "Coverage across Pretoria and greater Gauteng",
+              "Simple quote process via phone, WhatsApp or website form",
+            ].map((point) => (
+              <div key={point} className="rounded-xl bg-card p-5 shadow-sm">
+                <p className="font-medium text-card-foreground">{point}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-12 lg:px-8">
+        <h2 className="text-2xl font-bold text-primary">
+          Frequently Asked Questions
+        </h2>
+
+        <div className="mt-6 space-y-6">
+          <div>
+            <h3 className="text-lg font-semibold text-foreground">
+              Do you offer same-day water delivery in Pretoria?
+            </h3>
+            <p className="mt-2 leading-7 text-muted-foreground">
+              Yes, same-day delivery may be available depending on your location,
+              timing and tanker availability. Contact us directly for urgent requests.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-foreground">
+              Can you fill JoJo tanks and swimming pools?
+            </h3>
+            <p className="mt-2 leading-7 text-muted-foreground">
+              Yes. We assist with JoJo tank filling, pool filling and bulk supply for
+              homes, estates and commercial properties.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-foreground">
+              Do you supply construction sites in Pretoria?
+            </h3>
+            <p className="mt-2 leading-7 text-muted-foreground">
+              Yes. We supply construction water for contractors, developers and site
+              managers throughout Pretoria and surrounding areas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 pb-16 lg:px-8">
+        <div className="rounded-3xl bg-primary px-6 py-10 text-white">
+          <h2 className="text-3xl font-bold">
+            Need Water Delivered in Pretoria?
+          </h2>
+
+          <p className="mt-4 max-w-2xl text-white/90">
+            Call now or send us a WhatsApp message for a fast quotation. We assist
+            with emergency water delivery, JoJo tank filling, pool filling and
+            construction site supply.
+          </p>
+
+          <div className="mt-6 flex flex-col gap-4 sm:flex-row">
+            <a
+              href="tel:+27682805455"
+              className="rounded-xl bg-white px-6 py-3 text-center font-semibold text-primary"
+            >
+              Call +27 68 280 5455
+            </a>
+
+            <a
+              href="https://wa.me/27682805455"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-xl border border-white px-6 py-3 text-center font-semibold text-white"
+            >
+              WhatsApp for a Quote
+            </a>
+          </div>
+
+          <div className="mt-8 text-sm text-white/90">
+            <p className="font-semibold">Related pages:</p>
+
+            <div className="mt-2 flex flex-wrap gap-4">
+              <Link href="/areas/johannesburg" className="underline">
+                Johannesburg Water Delivery
+              </Link>
+              <Link href="/areas/centurion" className="underline">
+                Centurion Water Delivery
+              </Link>
+              <Link href="/services/emergency-water-delivery" className="underline">
+                Emergency Water Delivery
+              </Link>
+              <Link href="/services/jojo-tank-filling" className="underline">
+                JoJo Tank Filling
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  )
 }
